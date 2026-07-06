@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Economia Circular vs. Mercado Tradicional: Por que a Gestão Ambiental Integrada Vence"
-date: 2026-07-07
+date: 2026-07-07 10:38:00 -0300
+categories: [Sustentabilidade, Economia Circular]
+tags: [economia-circular, gestao-ambiental, inovacao, esg]
 author: Juliana Martins
-tags: ["comparativo", "modelo-linear", "custos", "eficiencia"]
 ---
 
 # a empresa vs. Mercado Tradicional: Por que a Gestão Ambiental Integrada Vence o Modelo Linear
