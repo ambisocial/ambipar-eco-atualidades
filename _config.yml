@@ -1,17 +1,71 @@
-title: "Eco Atualidades"
-description: "notícias do dia sobre sustentabilidade"
-baseurl: "/ambipar-eco-atualidades"
+# Configuração Jekyll - Tema Chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# Informações do site
+title: Eco Atualidades
+description: >-
+  Portal independente de notícias e análises sobre eco atualidades.
+  Conteúdo editorial focado em sustentabilidade, economia circular e inovação ambiental.
 url: "https://ambisocial.github.io"
-theme: minima
+baseurl: "/eco-atualidades"
+
+# Autor
+author: Redação Eco Atualidades
+email: contato@eco-atualidades.com
+
+# Idioma e timezone
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+# Plugins (compatíveis com GitHub Pages)
 plugins:
   - jekyll-feed
-  - jekyll-sitemap
   - jekyll-seo-tag
-permalink: /:year/:month/:day/:title/
-author:
-  name: "Redação Eco Atualidades"
-  email: "contato@ambipar-eco-atualidades.com"
-social:
-  name: Eco Atualidades
-  links:
-    - https://github.com/ambisocial/ambipar-eco-atualidades
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+
+# Configurações de build
+markdown: kramdown
+highlighter: rouge
+paginate: 10
+paginate_path: "/page:num/"
+
+# RSS Feed
+feed:
+  posts_limit: 20
+  excerpt_only: false
+
+# SEO
+twitter:
+  username: eco-atualidades
+  card: summary_large_image
+
+# PWA
+pwa:
+  enabled: true
+  sw_src: /sw.js
+
+# Analytics (opcional - desativado por padrão)
+google_analytics:
+  id: # GA-XXXXXXX
+
+# Comentários (desativado)
+comments:
+  active: # vazio = desativado
+
+# Layout padrão
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: false
+      toc: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      comments: false
